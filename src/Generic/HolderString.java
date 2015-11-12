@@ -8,10 +8,10 @@ import java.util.Arrays;
 class HolderTest {
     public static void main(String... args) {
         MyObjectHolder holder = new MyObjectHolder();
-        holder.setData(new int[]{2, 3, 5});
+        holder.setData("Hello");
 
-        int[] str = (int[]) holder.getData();
-        System.out.println(Arrays.toString(str));
+        String str = (String) holder.getData();
+        System.out.println(str);
     }
 }
 
