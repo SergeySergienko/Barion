@@ -1,4 +1,4 @@
-package Collection.Iterator.Labs;
+package Collection.Iterator.LabsExample;
 
 import java.util.Iterator;
 

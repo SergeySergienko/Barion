@@ -1,6 +1,6 @@
-package Collection.Iterator.Labs;
+package Collection.Iterator.LabsExample;
 
-import static Collection.Iterator.Labs.IteratorUtils.interval;
+import static Collection.Iterator.LabsExample.IteratorUtils.interval;
 
 /**
  * Created by Сергей on 17.11.2015.

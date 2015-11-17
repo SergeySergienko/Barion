@@ -1,4 +1,4 @@
-package Collection.Iterator.Labs;
+package Collection.Iterator.LabsExample;
 
 /**
  * Created by Сергей on 17.11.2015.
