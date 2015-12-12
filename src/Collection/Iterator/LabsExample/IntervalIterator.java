@@ -6,22 +6,24 @@ import java.util.Iterator;
  * Created by Сергей on 17.11.2015.
  */
 public class IntervalIterator implements Iterator<Integer> {
-    private int current;
-    private final int max;
+    private int left;
+    private final int right;
 
     public IntervalIterator(int left, int right) {
-        this.current = left;
-        this.max = right;
+        this.left = (int) Math.ceil(Math.sqrt(left));
+        this.right = right;
     }
 
     @Override
     public boolean hasNext() {
-        return current < max;
+        return left*left < right;
     }
 
     @Override
     public Integer next() {
-        return current++;
+        int result = left*left;
+        left++;
+        return result;
     }
 
     @Override

@@ -1,6 +1,5 @@
 package Collection.Iterator;
 
-import java.util.Arrays;
 import java.util.Iterator;
 
 /**
@@ -13,9 +12,8 @@ public class IteratorExample {
         company.setEmployees(employees);
 
         for (Employee emp : company) {
-            System.out.println(emp.getName());
+            System.out.println(emp);
         }
-
         Iterator<Employee> iter = company.iterator();
         while (iter.hasNext()) {
             System.out.println(iter.next());
